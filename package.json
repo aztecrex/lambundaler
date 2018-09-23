@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "belly-button -f",
-    "test": "npm run lint && lab -v -a code -t 100"
+    "test": "npm run lint && lab -v -a code -t 80"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -35,8 +35,9 @@
   "devDependencies": {
     "aws-sdk-mock": "1.7.x",
     "belly-button": "4.x.x",
+    "code": "^5.2.0",
     "jszip": "3.1.x",
-    "lab": "14.x.x",
+    "lab": "^15.5.0",
     "stand-in": "4.x.x",
     "will-call": "1.x.x"
   },
