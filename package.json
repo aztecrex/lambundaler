@@ -21,7 +21,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "aws-sdk": "2.4.7",
+    "aws-sdk": "^2.320.0",
     "browserify": "14.4.0",
     "fs-extra": "4.0.1",
     "insync": "2.1.1",
